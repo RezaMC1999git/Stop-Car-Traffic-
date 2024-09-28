@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8891683727731111676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8891683727731111666}
+  - component: {fileID: 8891683727731111667}
+  m_Layer: 0
+  m_Name: Level Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8891683727731111666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891683727731111676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8891683727731111667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891683727731111676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b7b79daf11b802499d161f88f4fb86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lastUpCarSpawned: 0
+  lastLeftCarSpawned: 0
+  lastDownCarSpawned: 0
+  lastRightCarSpawned: 0
+  UpCars:
+  - {fileID: 2816396033082252505, guid: 47749e858eedba64da523bf864a1725e, type: 3}
+  - {fileID: 5732018689485790362, guid: a5f1058362783a04ead1e33148cf21ab, type: 3}
+  - {fileID: 4035084764647589743, guid: d65000962828da2429543516e826f175, type: 3}
+  - {fileID: 1766788810611339681, guid: e7a39d23814ae3148b579f62219ab1c1, type: 3}
+  LeftCars:
+  - {fileID: 2419089244154881779, guid: 6141e07980764074caff3bbf26be943d, type: 3}
+  - {fileID: 8327736371060902041, guid: 071aa0761ac1fea42abc32fa77356ba2, type: 3}
+  - {fileID: 8272520300194286106, guid: 11ca845b2f15db44c9445e3d9107effb, type: 3}
+  - {fileID: 7538185879972256868, guid: 7fc999a41569e49448e6242a79fd7183, type: 3}
+  DownCars:
+  - {fileID: 8832505085484171150, guid: 58a21a007f01b2b48b38d62200ed8eb1, type: 3}
+  - {fileID: 8527841280691676373, guid: f1e254f270d722748984fb665af20146, type: 3}
+  - {fileID: 3160884224034599806, guid: 813fab130428d9c408924bbbfdac69e3, type: 3}
+  - {fileID: 2586356886154673419, guid: f5e6fc708a3960e4b9da704a54122e0d, type: 3}
+  RightCars:
+  - {fileID: 3352531478247177673, guid: 6840fd35c083fa84bb4f540dcedee74f, type: 3}
+  - {fileID: 3437488605518297289, guid: 736cdd6020589f14db3442a93f592975, type: 3}
+  - {fileID: 5621588137720396055, guid: 719842f9f0a725344845668d4714bb12, type: 3}
+  - {fileID: 4022893119122729010, guid: 1fd3a42762003bf469fe68f3c7d3226b, type: 3}
+  isLevelDignotical: 0

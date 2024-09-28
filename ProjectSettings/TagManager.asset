@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RightSide
+  - LeftSide
+  - UpSide
+  - DownSide
+  - UpGoal
+  - LeftGoal
+  - DownGoal
+  - RightGoal
+  - SoCloseText
+  - UpDownCloseTrigger
+  - LeftRightCloseTrigger
+  - UpSideSpawn
+  - LeftSideSpawn
+  - DownSideSpawn
+  - RightSideSpawn
+  - KharUpSide
+  - KharDownSide
+  - KharLeftSide
+  - KharRightSide
+  - CircleCar
+  - LeftTrain
+  - RightTrain
+  - UpTrain
+  - DownTrain
+  - PauseCanvas
+  - SuccessCanvas
+  - AccidentCanvas
+  - StartGameBTN
+  - CarsSectionBTN
+  - NextLevelBTN
+  - 2XNextLevelBTN
+  - restartGameBTN
+  - 2XRestartGameBTN
+  - AccidentCanvasTotallCash
+  - ShowCash
+  - CashText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Car
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Car
+    uniqueID: 95311553
+    locked: 0
+  - name: Canvas
+    uniqueID: 679293373
+    locked: 0
